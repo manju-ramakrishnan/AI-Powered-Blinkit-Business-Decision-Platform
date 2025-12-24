@@ -63,11 +63,12 @@ GROQ_API_KEY=your_groq_api_key
 
 Multiple classification models were evaluated using ROC-AUC:
 
-| Model                | AUC Score |
-|----------------------|-----------|
-| Logistic Regression  | 0.968     |
-| Random Forest        | 0.956     |
-| XGBoost (Selected)   | 0.952     |
+| Model               | AUC Score |
+|---------------------|-----------|
+| Logistic Regression | 0.968     |
+| XGBoost             | 0.956     |
+| Random Forest       | 0.952     |
+| KNN                 | 0.925     |
 
 ---
 
